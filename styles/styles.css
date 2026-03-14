@@ -16,6 +16,8 @@ nav {
 
 nav a {
     color: white;
+    padding: 10px;
+    display: block;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -23,6 +25,11 @@ nav a {
 main {
     max-width: 840px;
     margin: 20px auto;
+}
+
+h1 {
+    color: steelblue;
+    text-align: center;
 }
 
 main img {
