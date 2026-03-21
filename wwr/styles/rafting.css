@@ -38,7 +38,6 @@ header img {
     width: 100px;
 }
 
-/* NAVIGATION */
 nav ul {
     list-style: none;
     display: flex;
@@ -52,14 +51,12 @@ nav a {
     font-weight: bold;
 }
 
-/* HEADINGS */
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-/* SPACING */
 nav,
 p,
 section,
@@ -68,12 +65,10 @@ article {
     padding: 8px;
 }
 
-/* HERO */
 .hero {
     position: relative;
 }
 
-/* HERO IMAGE */
 .hero img {
     display: block;
     width: 100%;
@@ -112,7 +107,6 @@ article {
     margin-left: 10px;
 }
 
-/* SECTIONS */
 section {
     background-color: var(--secondary-color);
 }
@@ -123,7 +117,6 @@ footer {
     align-items: center;
 }
 
-/* SOCIAL MEDIA */
 .socialmedia {
     display: flex;
     gap: 12px;
