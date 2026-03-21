@@ -30,6 +30,8 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 header img {
@@ -46,7 +48,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-weight: bold;
 }
 
@@ -97,7 +99,7 @@ article {
     width: 90%;
     padding: 6px 10px;
     margin: 0;
-    background-color: rgba(233, 196, 106, 0.9);
+    background-color: var(--accent2-color);
 }
 
 .hero article p {
@@ -112,7 +114,7 @@ article {
 
 /* SECTIONS */
 section {
-    background-color: #f7f7f7;
+    background-color: var(--secondary-color);
 }
 
 footer {
