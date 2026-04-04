@@ -26,6 +26,7 @@ footer {
     margin: 0 auto;
 }
 
+/* HEADER (GRID) */
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -38,19 +39,27 @@ header img {
     width: 100px;
 }
 
+/* NAV (FLEX) */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+}
+
+nav li {
+    flex: 1 1 auto;
 }
 
 nav a {
     text-decoration: none;
     color: var(--accent2-color);
     font-weight: bold;
+    display: block;
+    padding: 10px;
+    text-align: center;
 }
 
+/* HEADINGS */
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -59,35 +68,33 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    /* FIXED contrast */
 }
 
-nav,
-p,
-section,
-article {
+/* SPACING */
+section {
     margin: 16px;
     padding: 8px;
+    background-color: var(--secondary-color);
 }
 
+/* HERO */
 .hero {
     position: relative;
 }
 
 .hero img {
-    display: block;
     width: 100%;
-    height: auto;
 }
 
 .hero h1 {
     position: absolute;
     top: 10px;
     width: 100%;
-    padding: 8px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: #ffffff;
-    opacity: 0.85;
+    color: white;
+    padding: 8px;
 }
 
 .hero article {
@@ -96,13 +103,8 @@ article {
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    padding: 6px 10px;
-    margin: 0;
     background-color: var(--accent2-color);
-}
-
-.hero article p {
-    margin: 0;
+    padding: 10px;
 }
 
 .hero article img {
@@ -111,44 +113,21 @@ article {
     margin-left: 10px;
 }
 
-section {
-    background-color: var(--secondary-color);
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 12px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: auto;
-}
-
+/* HISTORY LAYOUT (GRID) */
 .history-content {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 .history-content img {
     width: 100%;
 }
 
+/* ADVENTURE (FLEX) */
 .adventure-gallery {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     text-align: center;
 }
@@ -163,4 +142,25 @@ footer {
 
 .adventure-gallery figcaption {
     margin-top: 5px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SOCIAL */
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
 }
