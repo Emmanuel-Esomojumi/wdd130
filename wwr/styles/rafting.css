@@ -3,6 +3,7 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
+    --light-color: #ffffff;
 
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -93,7 +94,7 @@ section {
     width: 100%;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--light-color);
     padding: 8px;
 }
 
