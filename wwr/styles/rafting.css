@@ -134,3 +134,33 @@ footer {
     width: 40px;
     height: auto;
 }
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.history-content img {
+    width: 100%;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+
+.adventure-gallery figure {
+    flex: 1;
+}
+
+.adventure-gallery img {
+    width: 100%;
+}
+
+.adventure-gallery figcaption {
+    margin-top: 5px;
+}
